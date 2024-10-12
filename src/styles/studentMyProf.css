@@ -1,0 +1,38 @@
+.stuMyProfPic {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+.edtProfPicTxt {
+    color: #000;
+}
+.edtStuMyProfPar {
+    flex-direction: row;
+    gap: 20px;
+}
+.studClsNameTxt {
+    margin-top: 13px;
+}
+.stuMyProfContntPar {
+    width: 100%;
+    height: calc(100vh - 57px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.studProfWdthAdjst {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.myProfEchDtl .studProfWdthAdjst:nth-of-type(2) {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 6px;
+}
+.stuMyProfDtlsMnWrppr {
+    min-height: 60vh;
+}

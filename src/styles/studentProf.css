@@ -1,0 +1,64 @@
+.studentprofWrppr {
+    width: 100%;
+    height: 100%;
+    /* padding: 0 12px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; */
+}
+.stuProfContntWrpr {
+    width: 100%;
+    height: calc(100vh - 57px);
+    padding: 20px 16px 16px;
+    /* margin-top: 20px; */
+}
+/* .searchbox {
+    width: 100%;
+    height: 52px;
+    padding: 0 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.searchInp {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+} */
+.stdprofStdName {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.stdNameTxt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 12px;
+}
+.studprofStdNamePar {
+    width: 100%;
+    height: calc(100vh - 156px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.studprofStdNamePar li {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background: #162473;
+}

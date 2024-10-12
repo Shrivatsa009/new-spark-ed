@@ -1,0 +1,87 @@
+/* .mrkAttdnceWrppr {
+    width: 100%;
+    padding: 0 12px;
+} */
+.mrkAtdnceContnt {
+    padding: 20px;
+    width: 100%;
+    height: calc(100vh - 57px);
+    /* background: red; */
+}
+.teacherProf {
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+    background: #162473;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teacherProf img {
+    width: 30px;
+}
+.teacherName {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+.teacherDtls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    margin: 12px 0 32px;
+}
+.tchrNameTxt {
+    font-size: 16px;
+    color: #828282;
+    font-weight: 400;
+}
+.tchrNameTxtSub {
+    font-size: 14px;
+}
+.frstPrd.stdAttdnceMxWdth {
+    max-width: 200px;
+    /* color: #fff; */
+    min-height: unset;
+    padding: 12px;
+}
+.markAttendPic {
+    all: unset;
+    pointer-events: all;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.markAttendPic img {
+    width: 100%;
+}
+.stdNameAttdnce {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.stdNameAttendcePar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    /* background: red; */
+    height: calc(100vh - 203px);
+    overflow: hidden auto;
+    /* overflow-y: auto; */
+    /* padding: 10px 0; */
+}

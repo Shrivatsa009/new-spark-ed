@@ -1,0 +1,101 @@
+.communityMnWrrpr {
+    width: 100%;
+    height: 100%;
+}
+.comntyContntPar {
+    width: 100%;
+    height: calc(100vh - 57px);
+    /* background: red; */
+    padding: 16px;
+}
+.adCmntInpPar {
+    width: 100%;
+    padding: 32px 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+.adCmntInpPar input {
+    all: unset;
+    pointer-events: all;
+    width: 100%;
+}
+.addCmntPic {
+    min-width: 45px;
+    max-width: 45px;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background: #2C2760;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cmntyAddCmntPar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cmntyProf {
+    min-width: 30px;
+    max-width: 30px;
+    height: 30px;
+    background: #2C2760;
+    border-radius: 6px;
+}
+.cmntyPstsPic img {
+    width: 100%;
+}
+.cmntyPrfName {
+    font-weight: 600;
+    color: #000;
+}
+.cmntyPstsTmg {
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 3px;
+}
+.cmtyProfhdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cmntyDtlsPar {
+    width: 100%;
+}
+.cmntyEchPst {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.pstDicrptn {
+    font-weight: 400;
+    color: #000;
+}
+.cmntyPstCntnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+.contyRltdPostsPar {
+    width: 100%;
+    height: calc(100vh - 203px);
+    overflow-y: auto;
+    margin-top: 30px;
+}
+.contyRltdPostsPar .cmntyEchPst:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+.lkesHrt {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

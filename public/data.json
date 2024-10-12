@@ -1,0 +1,71 @@
+{
+    "homePageItems": [
+        {
+            "listItem": "My Time Table",
+            "routeItem": "/mytimetable",
+            "itemImg": "timeTable"
+        },
+        {
+            "listItem": "Mark Attendance",
+            "routeItem": "/markattendance",
+            "itemImg": "markAttendance"
+        },
+        {
+            "listItem": "Student Profile",
+            "routeItem": "/studentprofile",
+            "itemImg": "studentProfile"
+        },
+        {
+            "listItem": "My Profile",
+            "routeItem": "/myprofile",
+            "itemImg": "myprofile"
+        },
+        {
+            "listItem": "Community",
+            "routeItem": "/community",
+            "itemImg": "community"
+        },
+        {
+            "listItem": "Contact Support",
+            "routeItem": "/contactsupport",
+            "itemImg": "contactSup"
+        }
+    ],
+    "markAtndancePg": {
+        "/markattendance": {
+            "title": "Mark Attendance",
+            "data": [
+                {
+                    "stdNameAndSec": "4th std, C sec",
+                    "atdnceListRoute": "/markattendance/attendance",
+                    "edtIconPic": "editIcon"
+                },
+                {
+                    "stdNameAndSec": "7th std, A sec",
+                    "atdnceListRoute": "/markattendance/attendance",
+                    "edtIconPic": "editIcon"
+                },
+                {
+                    "stdNameAndSec": "3th std, B sec",
+                    "atdnceListRoute": "/markattendance/attendance",
+                    "edtIconPic": "editIcon"
+                },
+                {
+                    "stdNameAndSec": "5th std, A sec",
+                    "atdnceListRoute": "/markattendance/attendance",
+                    "edtIconPic": "editIcon"
+                },
+                {
+                    "stdNameAndSec": "4th std, A sec",
+                    "atdnceListRoute": "/markattendance/attendance",
+                    "edtIconPic": "editIcon"
+                },
+                {
+                    "stdNameAndSec": "5th std, C sec",
+                    "atdnceListRoute": "/markattendance/attendance",
+                    "edtIconPic": "editIcon"
+                }
+            ]
+        }
+    }
+}

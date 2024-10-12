@@ -1,0 +1,19 @@
+.commonBtnPar {
+    width: 100%;
+}
+.commonDrkBtn {
+    all: unset;
+    pointer-events: all;
+    /* max-width: 480px; */
+    width: 100%;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background: #162473;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

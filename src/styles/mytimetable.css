@@ -1,0 +1,72 @@
+
+/* .myTimeTbleWrappr {
+    width: 100%;
+    padding: 0 0 12px;
+} */
+.timeTblContPar {
+    margin-top: 14px;
+    padding: 0 12px 12px;
+}
+.dvCalendar {
+    width: 100%;
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: darkslategrey;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.commonFntSz.dateTxt {
+    color: #000;
+}
+.timeTblPar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+}
+.frstPrd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    padding: 10px;
+    background: #162473;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+.commonFntSz.periodTiming {
+    font-weight: 400;
+}
+.commonFntSz.periodSubj {
+    color: #000;
+}
+.frstPrd.frstStdNameSec {
+    background: none;
+    border: 1px solid gray;
+    color: #000;
+}
+.periodPar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+}
+/* .stdSec.noClasDspNon {
+    display: none;
+} */
+.breaksAlignmnt {
+    align-items: center;
+    /* padding: 0; */
+}
+/* .eachPageHdng {
+    padding: 16px 0;
+} */

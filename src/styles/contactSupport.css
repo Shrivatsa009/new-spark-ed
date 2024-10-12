@@ -1,0 +1,31 @@
+.myProfDtlsMnWrpr.contctSuprtDtlWrrpr {
+    padding: 26px;
+    min-height: 80vh;
+}
+.commonFntSz.tchrNameWthHlo.contctSprtPara {
+    width: 100%;
+    padding-left: 14px;
+}
+.traingVdsBtn {
+    max-width: 126px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    background: #fff;
+    color: #000;
+    border-radius: 6px;
+    padding: 16px 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.contctSuprtTrngCntctUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 50px;
+}
